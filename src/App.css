@@ -17,6 +17,7 @@
   }
 }
 
+
 .hero {
   position: relative;
 
@@ -159,6 +160,10 @@
   @media (max-width: 1024px) {
     height: 48px;
   }
+}
+
+.btn {
+  margin-right: 40px;
 }
 
 .ticks {
