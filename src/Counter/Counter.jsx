@@ -2,8 +2,7 @@ import { useState } from "react"
 import CounterButton from "./CounterButton/CounterButton";
 import Header from '../Header/Header'
 import Footer from "../Footer/Footer";
-// import "./App.scss"
-
+import "../Counter/Counter.scss"
 
 
 export default function Counter() {
@@ -13,7 +12,7 @@ export default function Counter() {
     if(count > 0){
         titleClass += " card__title--positive"
     } else if(count < 0) {
-        titleClass = 'card__title--positive'
+        titleClass += ' card__title--negative'
     } else {
         titleClass = 'card__title'
     }
@@ -23,7 +22,7 @@ export default function Counter() {
             <Header/>
             <div className="card">
                 <h2
-                    className={{titleClass}}
+                    className={titleClass}
                 >
                     Counter is: {count} 
                 </h2>
