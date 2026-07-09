@@ -5,15 +5,19 @@ import heroImg from './assets/hero.png'
 import Counter from './Counter'
 import Hide from './Hide'
 import Input from './Input'
+import Dynamic from './DynamicArray'
+import Square from './Square'
 import './App.css'
 
 function App() {
   return (
     <>
       <section id="center">
-        {/* <Counter/> */}
+        <Counter/>
         {/* <Hide/> */}
-        <Input/>
+        {/* <Input/> */}
+        {/* <Dynamic/> */}
+        {/* <Square/> */}
       </section>
     </>
   )

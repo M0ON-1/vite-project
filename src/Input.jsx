@@ -10,6 +10,10 @@ export default function Input() {
             onChange={(e) => setInput(e.target.value)}
         />
         <h1>{input || "Input something..."} </h1>
+
+        <button onClick={() => setInput("")}>
+            clear input
+        </button>
         
         </>        
     )
