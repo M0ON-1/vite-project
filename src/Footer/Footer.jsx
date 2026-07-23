@@ -2,7 +2,7 @@ import "./Footer.scss"
 
 const Footer = () => {
     return (
-        <p className="page-top page-bottom">Click something and you'll like it i guess.</p>
+        <p className="page-bottom font-bold underline">Click something and you'll like it i guess.</p>
     )
 }
 
